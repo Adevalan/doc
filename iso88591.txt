@@ -1,0 +1,20 @@
+c3 a4 c2 b8 c2 ad c3 a6 c2 96 c2 87 
+
+Ô­Ê¼£º
+e4 b8 ad e6 96 87 
+Ìæ´ú£º
+iso-8859-1.{e4 b8 ad e6 96 87 }==>utf-8
+
+new String(utf_8arr, "iso-8859-1"):
+e4->utf-8{c3 a4}
+b8->utf-8{c2 b8}
+ad->utf-8{c2 ad}
+e6->utf-8{c3 a6}
+96->utf-8{c2 96}
+87->utf-8{c2 87}
+value ¡ü¡ü
+
+str.getBytes("iso-8859-1");
+{c3 a4} -> e4
+{c2 b8} -> b8
+{c2 ad} -> ad

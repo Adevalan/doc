@@ -1,0 +1,6 @@
+Sql Query会先通过DML查询表的类型结构，
+自动映射到我们的什么什么类型。
+
+而@Entity的方式，是我们自定义的类型转换。
+
+否则原始的就是Object ResultSet。

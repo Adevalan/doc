@@ -1,0 +1,5 @@
+非IOC(包含Bean定义、资源注入)类型的注解均需要添加注解驱动。
+并且作为可配置的选项存在。
+所谓的注解驱动其实就是利用AOP的原理在方法的头部上加上代理类的BeanFactoryProcessor。。。。。
+BeanFactory的Processor处理器处理类。。
+一切都脱不开Spring的Ioc和Aop注实现的方法。

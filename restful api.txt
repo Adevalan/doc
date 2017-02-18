@@ -1,0 +1,4 @@
+webapi(restful-api利用HTTP协议头，返回特定的服务器资源)
+ajax请求，就是普通的ajax请求。
+webapi利用http传输更多的协议。
+它可以支持前端的ajax，也可以支持后端的httpclient。

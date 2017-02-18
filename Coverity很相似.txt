@@ -1,0 +1,7 @@
+
+PMD is a static Java source code analysis tool, similar in concept to Checkstyle, FindBugs and Coverity. 
+PMD是一个静态Java源码分析工具，从概念上讲与Checkstyle，FindBugs和Coverity很相似。
+www.infoq.com
+2
+The Java code quality/ static analysis space has a new entrant this week with Coverity, a software quality/ defect detection company that previously has been operating in the C/ C++ space for4 years. 
+Java代码质量/静态分析领域又有了一位新成员，它来自Coverity&一个在C/C++领域从事了四年软件品质/缺陷检测方面工作的公司。

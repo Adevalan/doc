@@ -1,0 +1,6 @@
+大端小端
+CMAKE
+共享锁、排它锁
+事务隔离性
+redo log、undo log
+datafile、

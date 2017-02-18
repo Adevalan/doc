@@ -1,0 +1,4 @@
+JVM:
+UTF-8 	   e4 b8 ad e5 9b bd 
+ISO-8859-1 3f 3f 
+GBK 	   d6 d0 b9 fa 

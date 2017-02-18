@@ -1,0 +1,5 @@
+Common查询方法，因为Spring中的Session获取方式用户不知道。
+同时Spring也不应当让用户改变行为来Spring中去获取Session而不是Hibernate，
+
+因此Spring实现了自己的HibernateDaoSupport方法来帮助用户实现这一块，这一块不应当给用户文档化。
+属于内部工作机制，而且不应该暴露接口。

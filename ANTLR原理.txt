@@ -1,0 +1,4 @@
+WebLogic-Loader - >ANTLR(String className) - ANTLR.classloader.forName();
+ANTLR(String className).getClass().getCaller().getClassLoader().forName(org.);
+
+Amp-Loader - HbToken.setToken( ANTLR.doddgwgw(org.Hibernate..xxxxxx) );

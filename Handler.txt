@@ -1,0 +1,2 @@
+@RequestBody @ResponseBody用于处理数据。
+ViewResolver用于处理视图名->对应视图处理类的关系。

@@ -1,0 +1,28 @@
+var resB = B();
+var runA = function(){
+	resB.then(execS1,execS2);
+};
+runA(); // resB.then(execS1,execS2);
+
+
+B {
+  function: then(exec1,exec2){
+	doSomething......
+	exec1(); or exec2();
+  }
+
+}
+
+var resB = B();
+var runA = function(){
+	b.then(exec1,exec2);
+}
+
+then(htne,exec2);
+
+
+loadImg(args,callback)
+{
+   doSomething();........
+   callBack();
+}

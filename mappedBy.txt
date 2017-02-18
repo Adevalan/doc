@@ -1,0 +1,6 @@
+只用对方表里的某些字段，不声明具体表级关系时，使用@JoinTable。
+代表该字段是join连接来的，也可能是整个关联对象。
+
+另外@ManyToOne( mappedBy="rowName" )
+
+mappedBy = 

@@ -1,0 +1,4 @@
+git add ->暂存区域
+git diff 暂存区域 == 当前文件。
+git diff --cached 暂存区域 --》 缓存区（空）--cached提交时暂存。
+

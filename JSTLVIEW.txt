@@ -1,0 +1,13 @@
+MessageConvert负责什么呢？
+负责将Body中的字符串转对象，以及将对象转成Body中的字符串。
+
+并且写入到response当中，并不经由View层。
+
+MessageConvert只负责对象的输入并输出。
+
+而JSP页面的则要结合addAttribute，那么把什么东西送进MessageConvert呢？
+把Attributes送进去？ 还是把View送进去呢。这个转换是由JstlView来完成的。
+
+MessageConvert应该也会介入当中，但是是派遣。
+
+而responsebody的则不一样。直接断链了。

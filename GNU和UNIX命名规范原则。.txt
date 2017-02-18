@@ -1,0 +1,40 @@
+usage: ls
+ -A,--almost-all          do not list implied . and ..
+ -a,--all                 do not hide entries starting with .
+ -B,--ignore-backups      do not list implied entried ending with ~
+ -b,--escape              print octal escapes for nongraphic characters
+    --block-size <SIZE>   use SIZE-byte blocks
+ -c                       with -lt: sort by, and show, ctime (time of last
+                          modification of file status information) with
+                          -l:show ctime and sort by name otherwise: sort
+                          by ctime
+ -C                       list entries by columns
+
+
+这种情下。
+--block-size不能拥
+-b，因为-b已经被使用了。
+也不能用
+-bs，因为-bs不会被认为是bs，而是-b和-s。
+除非独立出 -o。but -o又不能用了，因为哈哈哈。
+
+所以说，这里的原则是
+短写不一定和全写的名字相同，根据作者喜欢的命名规则而来。
+而长写只要其缩写形式和命名有冲突，那么就坑爹。
+这丫的。。。是随机投射的吧。= =  A。。。B。。。C。。。D。。。。
+几乎没有跨越。。。
+当然不是很明白--ingnore-backups可以和-B风马驴不相及。
+而--block-size就不能指定一个奇葩的玩意儿。
+
+
+这什么鸡巴玩意儿。。。好像就是
+从首字母A列到B。
+有两个列表做关联。
+若存在短选项列表，
+则列出所有的短选项，
+短选项对应长选项时列出长选项。。。
+这有点像是Left Join。。。。。。。
+
+列出字母A到B。
+到了N时，若有关联的，列出关联的。
+继续列N的选项，

@@ -1,0 +1,31 @@
+CALL <JMP.&dylib.?add@@YAHH@Z>
+JMP.&dylib.?add@@YAHH@Z : JMP DWORD PTR DS:[<&dylib.?add@@YAHH@Z>]
+004060B0
+
+一个根本原则就是尽量不去更改代码段。
+而这里的导入是依靠reloc来实现的。
+
+CALL 固定地址。
+固定地址 JMP 数据段:[xxxx]
+
+xxxx = 004060B0 存储API的地址。
+
+but，
+这样做还是没有改变代码段。
+导入表也不会重定位代码段。
+
+那么这样做的意义是什么。。
+PE文件内直接存储了目标的地址吧。
+
+JMP DS：[xxxx]
+data段其实就是已初始化的内容。那么变量的地址是绝对保存的。
+而JMP DS:[指令本身需要进行重定位]。
+
+#pragma comment其实就已经引入了xxx。
+
+而其内的内容不进行重定位行为。
+
+
+#pragma的作用是引入dll到exe文件的导入表。
+
+import的作用是生成可重定位的引入信息。

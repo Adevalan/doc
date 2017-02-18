@@ -1,0 +1,4 @@
+ajax是在httprequest.body == 里头列出请求参数，或者在地址栏，
+为某个动作起一个名字，这个名字可以与资源无关，参数可以在地址栏也可以在body栏。
+但restful api决定了参数可以放地址，但URL是可以重用的。
+这和把GET POST GET PUT放在地址栏没区别。

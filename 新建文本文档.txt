@@ -1,0 +1,10 @@
+INFORMIXCONTIME - Specifies for how many seconds 
+the CONNECT statement continues each attempt to 
+establish a connection to a database server before returning an error.
+
+
+
+
+
+17:48:17  You already have 20 connections at this time. Any further connections
+17:48:17  attempts will be rejected.

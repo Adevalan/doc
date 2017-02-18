@@ -1,0 +1,4 @@
+MOD是一个插件，属于模块型的东西。
+而插件加载器是craftBukkit对Minecraftserver作二次开发而独立的东西。
+它是嵌在MinecraftServer改版之内的。而不是一个可分开部分。
+Spigot把它的源码细读了，抄走了或者独立出来了。

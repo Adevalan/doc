@@ -1,0 +1,2 @@
+Struts是以Action来驱动XXX的。
+而JSF是以表现层技术(组件)来驱动XXX的。

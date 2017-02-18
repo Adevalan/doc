@@ -1,0 +1,14 @@
+SystemLoader - load jpa.jar
+ApplicationLoader - load hibernate-jpa.jar
+
+SystemLoad Class 
+两者均已加载：存在同名 优先使用父类的。
+
+一者已加载：直接从父容器当中取出类型定义，并且new出对象，调用对象的方法。
+
+一种是加载了，但是没加载成功。
+一种是加载了，成功了，但是不会用它。
+一种是根本就没加载，因为父类容器已经存在了。
+
+解决方法，必须是优先加载jar包。
+或者是，让JVM加载jar包？。。。。已存在的JVM怎么会加载JAR包呢。。。

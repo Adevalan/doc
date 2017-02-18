@@ -1,0 +1,9 @@
+一个Filter分层代码，被多层访问时，需要处理一下Filter。。。。
+
+嵌入多层当中第一层HttpServletRequest，
+进入doHttpFilter，
+第二层修改了HttpServletRequest，
+执行doFilter，
+进入第三层，第三层知道不是HttpServletRequest，
+怎么处理。就是继承于ServletReuqest的特殊派生类。
+该派生类为什么不执行HttpFilter？

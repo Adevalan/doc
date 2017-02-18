@@ -1,0 +1,11 @@
+drwxr-xr-x 1 Administrator 197108     0 1月   5 10:48 hooks/
+drwxr-xr-x 1 Administrator 197108     0 1月   5 10:48 info/
+drwxr-xr-x 1 Administrator 197108     0 1月   5 10:48 logs/
+drwxr-xr-x 1 Administrator 197108     0 1月   5 10:48 objects/
+drwxr-xr-x 1 Administrator 197108     0 1月   5 10:48 refs/ 
+ ---- 同步所有的版本文件，以及它们的commitsid，部分东西服务于基础库，部分东西服务于working directory。
+-rw-r--r-- 1 Administrator 197108   107 1月   5 10:48 packed-refs
+-rw-r--r-- 1 Administrator 197108   343 1月   5 10:48 config
+-rw-r--r-- 1 Administrator 197108    73 1月   5 10:48 description
+-rw-r--r-- 1 Administrator 197108    23 1月   5 10:48 HEAD
+-rw-r--r-- 1 Administrator 197108 76241 1月   5 10:48 index

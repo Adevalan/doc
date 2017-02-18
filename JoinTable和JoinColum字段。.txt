@@ -1,0 +1,2 @@
+JoinColum会Join整个对象，
+JoinTable仅仅Join@Colum字段。

@@ -1,0 +1,33 @@
+weblogic10服务器优先加载Web应用的jar (2010-11-21 18:02:55)转载▼
+标签： 杂谈 	分类： WebServer
+-------------------------------------------------------------------------------------------------------------------------------------------------
+weblogic10服务器优先加载Web应用的jar包：
+weblogic10服务器中自带了我们使用到的许多jar。而根据classloader委托原理，当weblogic启动时，默认情况下，加载的jar是它本身自带的jar，如果web应用和它自带的jar重复时，无法加载到web工程中的jar。然而，可能由于这些jar版本的更新，引起程序启动时报错。
+为了解决这个问题，weblogic10提供了weblogic.xml文件的配置，和web.xml放同级目录。
+-------------------------------------------------------------------------------------------------------------------------------------------------
+优先加载web应用的jar包的配置如下：
+
+<?xml version="1.0" encoding="utf-8"?>
+<weblogic-web-app
+  xmlns="http://www.bea.com/ns/weblogic/90"
+  xmlns:j2ee="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.bea.com/ns/weblogic/90 http://www.bea.com/ns/weblogic/90/weblogic-web-app.xsd">
+     <container-descriptor>
+         <prefer-web-inf-classes>true</prefer-web-inf-classes>
+     </container-descriptor>
+</weblogic-web-app>
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Weblogic10.3.1优先加载web应用的jar包的配置如下：
+
+<?xml version='1.0' encoding='UTF-8'?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app http://xmlns.oracle.com/weblogic/weblogic-web-app/1.0/weblogic-web-app.xsd">
+   
+    <container-descriptor>
+        <prefer-web-inf-classes>true</prefer-web-inf-classes>
+    </container-descriptor>
+   
+</weblogic-web-app>
+prefer-web-inf-classes=true是WebLogic's classloader在有重名类时，优先加载Web应用中WEB-INF内的类。
+
+-------------------------------------------------------------------------------------------------------------------------------------------------

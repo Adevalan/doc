@@ -1,0 +1,9 @@
+	if(typeof(cdr_conf_list_intervalID) == "undefined" || cdr_conf_list_intervalID == null)
+		cdr_conf_list_intervalID = setInterval(schedule, 100);
+
+如果仅仅这样判断：
+	if(typeof(cdr_conf_list_intervalID) == "undefined")
+		cdr_conf_list_intervalID = setInterval(schedule, 100);
+那么除了第一次进入页面时才会产生Interval，
+接下来每次都不会再产生Interval，除非你可以再在需要的时候把cdr_conf_list_intervalID再设置为:
+"undefined.",但是js程序不支持设置undefined的程式。

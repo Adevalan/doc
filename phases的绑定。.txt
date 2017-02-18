@@ -1,0 +1,8 @@
+Maven-default building bundle ->
+项目的pom.xml呈现一种继承形式，不管是文件上的继承还是parent的继承方式。
+默认的pom.xml文件具有可显式的插件绑定，
+
+①、插件绑定到的phases是已经固定的。实际生命周期是隐式存在的，仅仅支持phases的队列化。
+插件不会绑定到生命周期。
+
+②、引入插件不会绑定到phases，只有当进行enable操作的时候，即phase的动作被启用。

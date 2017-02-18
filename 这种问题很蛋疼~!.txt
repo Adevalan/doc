@@ -1,0 +1,2 @@
+插入了新的ClassLoader到预先加载的CLASSPATH当中，
+那么是否意味着该ClassLoader已经对整个应用App的ClassLoader的ClassPath具有了访问权？

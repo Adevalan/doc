@@ -1,0 +1,7 @@
+gcc 和makefile。
+makefile定制了源程序的几种构建方式。并指定了不同阶段使用的命令行。
+
+Makefile的make程序使用MAKEFILE文件当中指定的命令行进行执行编译过程，
+make程序会调用gcc程序。
+makefile只是对程序的几种生命周期进行组织。
+比如 make、install、clean。绑定几种生命周期。

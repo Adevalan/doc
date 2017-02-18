@@ -1,0 +1,5 @@
+处理Bean代理。
+为每个Bean做一个代理，遇到在方法前后拦截的情况，或者在Spring自定义的业务流程模范上拦截的时候，
+就需要使用AOP动态代理或者Spring嵌入式历程。
+
+每个Bean在实例化(constructor)、注入(injected)后可以做一些初始化。

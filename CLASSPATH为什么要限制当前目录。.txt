@@ -1,0 +1,5 @@
+每进入一个目录，这个目录就算作为classpath。
+java classpath = "C:\works\compay\cib\workspace\bolr\build\classes\com\bolr\"
+此时访问java six.bolr半个全限定名，那么能访问到bolr的xxx吗。如果可以的话，那么就表明我们动态的改变了类的名字。
+这个类可以随时变成six.bolr borl bolr.six.borl等等各种名字。
+让人捉摸不定。

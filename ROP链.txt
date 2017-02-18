@@ -1,0 +1,11 @@
+systemAddr    pop %rax pop
+sssss    pop %rbx pop
+ggggg    pop %rbp pop
+ppppp    retq <-->libc.ret_stub 
+
+原程序参数
+堆栈中的返回地址 到libc ->去libc。retq
+system函数地址 }
+system函数参数 } 清栈
+一定不是本栈内的内容，而是下一个libc。retq不能返回到堆栈，而是由堆栈指出返回到哪里。
+如果是堆栈返回值堆栈地址，那么就可以在堆栈执行，但是必须填写下一个ROP链的地址，来执行ROP

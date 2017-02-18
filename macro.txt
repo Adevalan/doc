@@ -1,0 +1,10 @@
+Plain Text code
+?
+1
+#define identifier token-sequence
+
+
+Plain Text code
+?
+1
+#define identifier( identifier-list ) token-sequence

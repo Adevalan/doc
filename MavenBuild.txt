@@ -1,0 +1,3 @@
+Maven Build就只是Maven Build，
+其主要负责进行Maven 项目的Build，但其构造的行为是可控制的。
+即加入特制的afract目标命令行。

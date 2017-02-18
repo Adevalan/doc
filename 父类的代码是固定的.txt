@@ -1,0 +1,23 @@
+f{
+
+virtual dkkd(){
+  dddd();
+}
+
+virtual dddd(){
+  out-x
+}
+
+}
+
+s{
+
+dddd(){
+  out-y
+}
+
+cccc(){
+  dkkd();
+}
+
+}

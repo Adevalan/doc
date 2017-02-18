@@ -1,0 +1,10 @@
+工厂模式 出来的一般是封装一个接口的所有实现类。
+一般来说一个工厂类专门服务于一系列相关联的实现类。
+去帮助实例化这些内容。
+出来的接口都是一样的，因为newInstance是一个方法，它必然只有一种返回值类型。
+而不是一个方法重载。
+不可能发生那么多的重载。
+S newInstance(S);
+A newInstance(A);
+B newInstance(B);
+SAB newInstance(SABImpl.class);

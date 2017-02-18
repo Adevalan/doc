@@ -1,0 +1,1 @@
+GNU协议的软件，或者Cmake的软件一般都是配configure。

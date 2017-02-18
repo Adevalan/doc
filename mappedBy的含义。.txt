@@ -1,0 +1,2 @@
+查询Person时，会顺带查询idCard
+查询idCard时，不会顺带查询Person。

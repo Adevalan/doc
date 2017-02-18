@@ -1,0 +1,4 @@
+DML是针对数据的操作。
+DDL是针对表结构的操作。
+
+ahahahahahahahaha！！！！！！

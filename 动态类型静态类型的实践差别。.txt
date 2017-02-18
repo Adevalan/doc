@@ -1,0 +1,3 @@
+			DataSetTag dataSetTag = getFlowAnno(DataSetTagInterceptor.class);
+			// 由于是静态类型，所以编译时会按照类型产生固定的成员访问代码。即，任何成员必须是确定类型的。甚至确定泛类型的，需要访问的成员必须是这个类型有的。才可以编译通过。
+			// 而动态类型访问的成员可以是这个对象类型没有的。

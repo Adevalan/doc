@@ -1,0 +1,1625 @@
+login as: linmq
+linmq@192.168.25.220's password:
+Welcome to Ubuntu 14.04.1 LTS (GNU/Linux 3.13.0-32-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+
+624 packages can be updated.
+322 updates are security updates.
+
+Last login: Mon Sep 19 21:07:28 2016 from 192.168.25.11
+linmq@linmq-desktop:~$ java
+Usage: java [-options] class [args...]
+           (to execute a class)
+   or  java [-options] -jar jarfile [args...]
+           (to execute a jar file)
+where options include:
+    -d32          use a 32-bit data model if available
+    -d64          use a 64-bit data model if available
+    -server       to select the "server" VM
+    -zero         to select the "zero" VM
+    -jamvm        to select the "jamvm" VM
+    -avian        to select the "avian" VM
+    -dcevm        to select the "dcevm" VM
+                  The default VM is server,
+                  because you are running on a server-class machine.
+
+
+    -cp <class search path of directories and zip/jar files>
+    -classpath <class search path of directories and zip/jar files>
+                  A : separated list of directories, JAR archives,
+                  and ZIP archives to search for class files.
+    -D<name>=<value>
+                  set a system property
+    -verbose:[class|gc|jni]
+                  enable verbose output
+    -version      print product version and exit
+    -version:<value>
+                  require the specified version to run
+    -showversion  print product version and continue
+    -jre-restrict-search | -no-jre-restrict-search
+                  include/exclude user private JREs in the version search
+    -? -help      print this help message
+    -X            print help on non-standard options
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  enable assertions with specified granularity
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  disable assertions with specified granularity
+    -esa | -enablesystemassertions
+                  enable system assertions
+    -dsa | -disablesystemassertions
+                  disable system assertions
+    -agentlib:<libname>[=<options>]
+                  load native agent library <libname>, e.g. -agentlib:hprof
+                  see also, -agentlib:jdwp=help and -agentlib:hprof=help
+    -agentpath:<pathname>[=<options>]
+                  load native agent library by full pathname
+    -javaagent:<jarpath>[=<options>]
+                  load Java programming language agent, see java.lang.instrument
+    -splash:<imagepath>
+                  show splash screen with specified image
+See http://www.oracle.com/technetwork/java/javase/documentation/index.html for more details.
+linmq@linmq-desktop:~$ ls
+Desktop    examples.desktop  Pictures   Videos
+Documents  Music             Public     wls1033_generic.jar
+Downloads  nohup.out         Templates
+linmq@linmq-desktop:~$ java -jar wls1033_generic.jar
+Unable to instantiate GUI, defaulting to console mode.
+Extracting 0%..........
+linmq@linmq-desktop:~$
+linmq@linmq-desktop:~$
+linmq@linmq-desktop:~$
+linmq@linmq-desktop:~$
+linmq@linmq-desktop:~$
+linmq@linmq-desktop:~$
+linmq@linmq-desktop:~$ nohup java -jar wls1033_generic.jar &
+[1] 2758
+linmq@linmq-desktop:~$ nohup: ignoring input and appending output to ¡®nohup.out¡¯
+
+linmq@linmq-desktop:~$ ls
+Desktop    examples.desktop  Pictures   Videos
+Documents  Music             Public     wls1033_generic.jar
+Downloads  nohup.out         Templates
+linmq@linmq-desktop:~$ cat nohup.out
+Generating private key... done
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+Error: A VNC or X Server is already running as :1 [DisplayInUse]
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+xauth:  file /root/.Xauthority does not exist
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Loyal Rufus Sofia. Support vanilla cola."
+             signature: 04-ce-90-f4-18-10-a8-18
+
+Log file is /root/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+Unable to instantiate GUI, defaulting to console mode.
+Extracting 0%....................................................................................................100%
+linmq@linmq-desktop:~$ cat nohup.out
+Generating private key... done
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+Error: A VNC or X Server is already running as :1 [DisplayInUse]
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+xauth:  file /root/.Xauthority does not exist
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Loyal Rufus Sofia. Support vanilla cola."
+             signature: 04-ce-90-f4-18-10-a8-18
+
+Log file is /root/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+Unable to instantiate GUI, defaulting to console mode.
+Extracting 0%....................................................................................................100%
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Welcome:
+--------
+
+This installer will guide you through the installation of WebLogic 10.3.3.0.
+Type "Next" or enter to proceed to the next prompt.  If you want to change data entered previously, type "Previous".  You may quit the installer at any time by typing "Exit".
+
+
+
+
+Enter [Exit][Next]> linmq@linmq-desktop:~$ cat nohup.out
+Generating private key... done
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Soprano under invest. Million Delphi front."
+             signature: 30-2b-68-dd-f2-4d-08-d7
+
+Log file is /home/linmq/.vnc/linmq-desktop:1.log
+New desktop is linmq-desktop:1 (192.168.25.220:1)
+Error: A VNC or X Server is already running as :1 [DisplayInUse]
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+xauth:  file /root/.Xauthority does not exist
+VNC(R) Server 5.3.2 (r19179) x64 (Jun 6 2016 19:59:17)
+Copyright (C) 2002-2016 RealVNC Ltd.
+RealVNC and VNC are trademarks of RealVNC Ltd and are protected by trademark
+registrations and/or pending trademark applications in the European Union,
+United States of America and other jurisdictions.
+Protected by UK patent 2481870; US patent 8760366.
+See http://www.realvnc.com for information on VNC.
+For third party acknowledgements see:
+http://www.realvnc.com/products/vnc/documentation/5.3/acknowledgements.txt
+
+If a desktop environment fails to load for this virtual desktop, please see:
+ http://www.realvnc.com/doclink/kb-345?version=5.3.2.19179
+Running applications in /etc/vnc/xstartup
+
+VNC Server catchphrase: "Loyal Rufus Sofia. Support vanilla cola."
+             signature: 04-ce-90-f4-18-10-a8-18
+
+Log file is /root/.vnc/linmq-desktop:2.log
+New desktop is linmq-desktop:2 (192.168.25.220:2)
+Unable to instantiate GUI, defaulting to console mode.
+Extracting 0%....................................................................................................100%
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Welcome:
+--------
+
+This installer will guide you through the installation of WebLogic 10.3.3.0.
+Type "Next" or enter to proceed to the next prompt.  If you want to change data entered previously, type "Previous".  You may quit the installer at any time by typing "Exit".
+
+
+
+
+Enter [Exit][Next]> linmq@linmq-desktop:~$ ls
+Desktop    examples.desktop  Pictures   Videos
+Documents  Music             Public     wls1033_generic.jar
+Downloads  nohup.out         Templates
+linmq@linmq-desktop:~$ ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 08:53 ?        00:00:01 /sbin/init
+root         2     0  0 08:53 ?        00:00:00 [kthreadd]
+root         3     2  0 08:53 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 08:53 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 08:53 ?        00:00:00 [rcu_sched]
+root         8     2  0 08:53 ?        00:00:00 [rcuos/0]
+root         9     2  0 08:53 ?        00:00:00 [rcuos/1]
+root        10     2  0 08:53 ?        00:00:00 [rcuos/2]
+root        11     2  0 08:53 ?        00:00:00 [rcuos/3]
+root        12     2  0 08:53 ?        00:00:00 [rcu_bh]
+root        13     2  0 08:53 ?        00:00:00 [rcuob/0]
+root        14     2  0 08:53 ?        00:00:00 [rcuob/1]
+root        15     2  0 08:53 ?        00:00:00 [rcuob/2]
+root        16     2  0 08:53 ?        00:00:00 [rcuob/3]
+root        17     2  0 08:53 ?        00:00:00 [migration/0]
+root        18     2  0 08:53 ?        00:00:00 [watchdog/0]
+root        19     2  0 08:53 ?        00:00:00 [watchdog/1]
+root        20     2  0 08:53 ?        00:00:00 [migration/1]
+root        21     2  0 08:53 ?        00:00:00 [ksoftirqd/1]
+root        22     2  0 08:53 ?        00:00:00 [kworker/1:0]
+root        23     2  0 08:53 ?        00:00:00 [kworker/1:0H]
+root        24     2  0 08:53 ?        00:00:00 [khelper]
+root        25     2  0 08:53 ?        00:00:00 [kdevtmpfs]
+root        26     2  0 08:53 ?        00:00:00 [netns]
+root        27     2  0 08:53 ?        00:00:00 [writeback]
+root        28     2  0 08:53 ?        00:00:00 [kintegrityd]
+root        29     2  0 08:53 ?        00:00:00 [bioset]
+root        30     2  0 08:53 ?        00:00:00 [kworker/u9:0]
+root        31     2  0 08:53 ?        00:00:00 [kblockd]
+root        32     2  0 08:53 ?        00:00:00 [ata_sff]
+root        33     2  0 08:53 ?        00:00:00 [khubd]
+root        34     2  0 08:53 ?        00:00:00 [md]
+root        35     2  0 08:53 ?        00:00:00 [devfreq_wq]
+root        37     2  0 08:53 ?        00:00:00 [kworker/1:1]
+root        38     2  0 08:53 ?        00:00:00 [khungtaskd]
+root        39     2  0 08:53 ?        00:00:00 [kswapd0]
+root        40     2  0 08:53 ?        00:00:00 [ksmd]
+root        41     2  0 08:53 ?        00:00:00 [khugepaged]
+root        42     2  0 08:53 ?        00:00:00 [fsnotify_mark]
+root        43     2  0 08:53 ?        00:00:00 [ecryptfs-kthrea]
+root        44     2  0 08:53 ?        00:00:00 [crypto]
+root        56     2  0 08:53 ?        00:00:00 [kthrotld]
+root        58     2  0 08:53 ?        00:00:00 [scsi_eh_0]
+root        59     2  0 08:53 ?        00:00:00 [scsi_eh_1]
+root        61     2  0 08:53 ?        00:00:00 [scsi_eh_2]
+root        62     2  0 08:53 ?        00:00:00 [scsi_eh_3]
+root        63     2  0 08:53 ?        00:00:00 [kworker/u8:3]
+root        84     2  0 08:53 ?        00:00:00 [deferwq]
+root        85     2  0 08:53 ?        00:00:00 [charger_manager]
+root        86     2  0 08:53 ?        00:00:00 [kworker/0:2]
+root       134     2  0 08:53 ?        00:00:00 [kpsmoused]
+root       142     2  0 08:53 ?        00:00:00 [jbd2/sda6-8]
+root       143     2  0 08:53 ?        00:00:00 [ext4-rsv-conver]
+root       266     1  0 08:53 ?        00:00:00 upstart-udev-bridge --daemon
+root       272     1  0 08:53 ?        00:00:00 /lib/systemd/systemd-udevd --dae
+root       327     2  0 08:53 ?        00:00:00 [kvm-irqfd-clean]
+root       354     2  0 08:53 ?        00:00:00 [hd-audio0]
+root       475     1  0 08:53 ?        00:00:00 upstart-socket-bridge --daemon
+root       500     2  0 08:53 ?        00:00:00 [kworker/u9:1]
+message+   561     1  0 08:53 ?        00:00:00 dbus-daemon --system --fork
+root       637     1  0 08:53 ?        00:00:00 /usr/sbin/ModemManager
+root       638     1  0 08:53 ?        00:00:00 /usr/sbin/bluetoothd
+syslog     658     1  0 08:53 ?        00:00:00 rsyslogd
+root       660     2  0 08:53 ?        00:00:00 [krfcommd]
+root       713     1  0 08:53 ?        00:00:00 upstart-file-bridge --daemon
+root       720     1  0 08:53 ?        00:00:00 /lib/systemd/systemd-logind
+avahi      741     1  0 08:53 ?        00:00:01 avahi-daemon: running [linmq-des
+avahi      747   741  0 08:53 ?        00:00:00 avahi-daemon: chroot helper
+root       790     1  0 08:53 tty4     00:00:00 /sbin/getty -8 38400 tty4
+root       794     1  0 08:53 tty5     00:00:00 /sbin/getty -8 38400 tty5
+root       803     1  0 08:53 tty2     00:00:00 /sbin/getty -8 38400 tty2
+root       804     1  0 08:53 tty3     00:00:00 /sbin/getty -8 38400 tty3
+root       807     1  0 08:53 tty6     00:00:00 /sbin/getty -8 38400 tty6
+root       840     1  0 08:53 ?        00:00:00 /usr/sbin/sshd -D
+root       849     1  0 08:53 ?        00:00:00 acpid -c /etc/acpi/events -s /va
+kernoops   856     1  0 08:53 ?        00:00:00 /usr/sbin/kerneloops
+root       883     1  0 08:53 ?        00:00:00 cron
+root       884     1  0 08:53 ?        00:00:00 /usr/sbin/cups-browsed
+root       889     1  0 08:53 ?        00:00:00 lightdm
+root       896     1  0 08:53 ?        00:00:00 NetworkManager
+root       945     1  0 08:53 ?        00:00:00 /usr/lib/policykit-1/polkitd --n
+root       949   889  0 08:53 tty7     00:00:01 /usr/bin/X -core :0 -seat seat0
+root       967     1  0 08:53 ?        00:00:00 /usr/lib/accountsservice/account
+root       971     1  0 08:53 tty1     00:00:00 /sbin/getty -8 38400 tty1
+whoopsie   984     1  0 08:53 ?        00:00:00 whoopsie
+root      1011     2  0 08:53 ?        00:00:00 [kauditd]
+root      1056   896  0 08:53 ?        00:00:00 /sbin/dhclient -d -sf /usr/lib/N
+root      1113     1  0 08:53 ?        00:00:00 /usr/lib/upower/upowerd
+rtkit     1137     1  0 08:53 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+nobody    1141   896  0 08:53 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --
+root      1505   889  0 08:54 ?        00:00:00 lightdm --session-child 12 21
+colord    1534     1  0 08:54 ?        00:00:00 /usr/lib/colord/colord
+linmq     1562     1  0 08:55 ?        00:00:00 /usr/bin/gnome-keyring-daemon --
+linmq     1564  1505  0 08:55 ?        00:00:00 init --user
+linmq     1615     1  0 08:55 ?        00:00:00 dbus-launch --autolaunch=30a082e
+linmq     1618     1  0 08:55 ?        00:00:00 //bin/dbus-daemon --fork --print
+linmq     1630  1564  0 08:55 ?        00:00:00 ssh-agent -s
+linmq     1637  1564  0 08:55 ?        00:00:00 dbus-daemon --fork --session --a
+linmq     1645  1564  0 08:55 ?        00:00:00 upstart-event-bridge
+linmq     1651  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/wi
+linmq     1661  1564  0 08:55 ?        00:00:01 /usr/lib/unity-settings-daemon/u
+linmq     1665  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/hu
+linmq     1668  1564  0 08:55 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus
+linmq     1669  1564  0 08:55 ?        00:00:00 gnome-session --session=ubuntu
+linmq     1672  1564  0 08:55 ?        00:00:00 upstart-dbus-bridge --daemon --s
+linmq     1673  1564  0 08:55 ?        00:00:00 /usr/lib/unity/unity-panel-servi
+linmq     1677  1668  0 08:55 ?        00:00:00 /bin/dbus-daemon --config-file=/
+linmq     1682  1564  0 08:55 ?        00:00:00 upstart-file-bridge --daemon --u
+linmq     1684  1564  0 08:55 ?        00:00:00 upstart-dbus-bridge --daemon --s
+linmq     1686  1564  0 08:55 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-re
+linmq     1694  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfsd
+linmq     1698  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/us
+linmq     1707  1564  0 08:55 ?        00:00:00 /usr/bin/fcitx
+linmq     1711  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/bamf/b
+linmq     1715  1564  0 08:55 ?        00:00:00 //bin/dbus-daemon --fork --print
+linmq     1719  1564  0 08:55 ?        00:00:00 /usr/bin/fcitx-dbus-watcher unix
+linmq     1744  1564  0 08:55 ?        00:00:00 /usr/lib/dconf/dconf-service
+linmq     1765  1564  0 08:55 ?        00:00:00 /usr/bin/pulseaudio --start --lo
+linmq     1775  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1780  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1783  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1785  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1788  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1791  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1792  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1794  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1807  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+linmq     1838  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/notify
+linmq     1839  1669  0 08:55 ?        00:00:04 compiz
+linmq     1855  1564  0 08:55 ?        00:00:00 /usr/lib/evolution/evolution-sou
+linmq     1897  1669  0 08:55 ?        00:00:00 nm-applet
+linmq     1898  1669  0 08:55 ?        00:00:00 /usr/lib/unity-settings-daemon/u
+linmq     1900  1669  0 08:55 ?        00:00:00 /usr/lib/policykit-1-gnome/polki
+linmq     1907  1669  0 08:55 ?        00:00:01 nautilus -n
+linmq     1923  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volum
+linmq     1927  1564  0 08:55 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/
+root      1930     1  0 08:55 ?        00:00:00 /usr/lib/udisks2/udisksd --no-de
+linmq     1939  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-mo
+linmq     1944  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volum
+linmq     1947  1564  0 08:55 ?        00:00:00 /usr/lib/evolution/evolution-cal
+linmq     1951  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-mo
+linmq     1970  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spaw
+linmq     1982  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawn
+linmq     1998  1564  0 08:55 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+linmq     2009  1564  0 08:55 ?        00:00:00 sogou-qimpanel
+linmq     2080  1669  0 08:55 ?        00:00:00 telepathy-indicator
+linmq     2088  1564  0 08:55 ?        00:00:00 /usr/lib/telepathy/mission-contr
+linmq     2100  1669  0 08:56 ?        00:00:00 zeitgeist-datahub
+linmq     2105  1564  0 08:56 ?        00:00:00 /usr/bin/zeitgeist-daemon
+linmq     2111  1564  0 08:56 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitge
+linmq     2123  2111  0 08:56 ?        00:00:00 /bin/cat
+linmq     2156  1669  0 08:56 ?        00:00:00 update-notifier
+linmq     2178  1669  0 08:57 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-d
+linmq     2244  1564  0 09:00 ?        00:00:00 /usr/lib/unity/unity-panel-servi
+root      2432     1  0 09:06 ?        00:00:00 /usr/sbin/cupsd -f
+lp        2437  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2438  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2439  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2440  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2441  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2442  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2443  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2444  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+lp        2445  2432  0 09:06 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus
+root      2450     1  0 09:06 ?        00:00:00 /usr/sbin/console-kit-daemon --n
+root      2620     2  0 09:06 ?        00:00:00 [kworker/u8:1]
+root      2638     2  0 09:21 ?        00:00:00 [kworker/0:0]
+root      2642   840  0 09:54 ?        00:00:00 sshd: linmq [priv]
+linmq     2680  2642  0 09:54 ?        00:00:00 sshd: linmq@pts/8
+linmq     2681  2680  0 09:54 pts/8    00:00:00 -bash
+linmq     2758  2681 99 09:55 pts/8    00:00:30 java -jar wls1033_generic.jar
+linmq     2818  2681  0 09:55 pts/8    00:00:00 ps -ef
+linmq@linmq-desktop:~$ ps -ef|grep java
+linmq     2758  2681 99 09:55 pts/8    00:00:36 java -jar wls1033_generic.jar
+linmq     2820  2681  0 09:55 pts/8    00:00:00 grep --color=auto java
+linmq@linmq-desktop:~$ kill 2758
+linmq@linmq-desktop:~$ java -jar wls1033_generic.jar
+Unable to instantiate GUI, defaulting to console mode.
+Extracting 0%....................................................................................................100%
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Welcome:
+--------
+
+This installer will guide you through the installation of WebLogic 10.3.3.0.
+Type "Next" or enter to proceed to the next prompt.  If you want to change data entered previously, type "Previous".  You may quit the installer at any time by typing "Exit".
+
+
+
+
+Enter [Exit][Next]> ^C[1]+  Exit 143                nohup java -jar wls1033_generic.jar
+linmq@linmq-desktop:~$ ls
+Desktop    examples.desktop  Pictures   Videos
+Documents  Music             Public     wls1033_generic.jar
+Downloads  nohup.out         Templates
+linmq@linmq-desktop:~$ mkdir software
+linmq@linmq-desktop:~$ cp wls1033_generic.jar ./software/wls1033_generic.jar
+linmq@linmq-desktop:~$ cd soft*
+linmq@linmq-desktop:~/software$ ls
+wls1033_generic.jar
+linmq@linmq-desktop:~/software$ java -jar wls1033_generic.jar
+Unable to instantiate GUI, defaulting to console mode.
+Extracting 0%....................................................................................................100%
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Welcome:
+--------
+
+This installer will guide you through the installation of WebLogic 10.3.3.0.
+Type "Next" or enter to proceed to the next prompt.  If you want to change data entered previously, type "Previous".  You may quit the installer at any time by typing "Exit".
+
+
+
+
+Enter [Exit][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Choose Middleware Home Directory:
+---------------------------------
+
+    "Middleware Home" = [Enter new value or use default
+"/home/linmq/Oracle/Middleware"]
+
+
+
+
+Enter new Middleware Home OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[Yes]
+
+
+    ** You have not provided an email address.
+    **
+    ** Do you wish to remain uninformed of critical security
+    ** issues in your configuration?
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[Yes]
+
+
+    ** Do you wish to bypass initiation of the configuration manager and
+    **  remain uninformed of critical security issues in your configuration?
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+^Clinmq@linmq-desktop:~/software$ java -jar wls1033_generic.jar
+Unable to instantiate GUI, defaulting to console mode.
+Extracting 0%....................................................................................................100%
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Welcome:
+--------
+
+This installer will guide you through the installation of WebLogic 10.3.3.0.
+Type "Next" or enter to proceed to the next prompt.  If you want to change data entered previously, type "Previous".  You may quit the installer at any time by typing "Exit".
+
+
+
+
+Enter [Exit][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Choose Middleware Home Directory:
+---------------------------------
+
+    "Middleware Home" = [Enter new value or use default
+"/home/linmq/Oracle/Middleware"]
+
+
+
+
+Enter new Middleware Home OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> 1
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+    "Email:" = [Enter new value or use default ""]
+
+
+
+Enter new Email: OR [Exit][Previous][Next]> ngcw@sunway.com.my
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[ngcw@sunway.com.my]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]>
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[ngcw@sunway.com.my]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> 2
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+    "My Oracle Support Password:" = [Enter new value or use default ""]
+
+
+
+Enter new My Oracle Support Password: OR [Exit][Previous][Next]>
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[ngcw@sunway.com.my]
+   2|My Oracle Support Password:[*******]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]>
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[ngcw@sunway.com.my]
+   2|My Oracle Support Password:[*******]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Proxy Server:[]
+   2|Proxy Port:[]
+   3|Proxy Username:[]
+   4|Proxy Password:[]
+   5|Remain uninformed:[]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]>
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Proxy Server:[]
+   2|Proxy Port:[]
+   3|Proxy Username:[]
+   4|Proxy Password:[]
+   5|Remain uninformed:[]
+
+
+    ** Port Number cannot be empty
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Proxy Server:[]
+   2|Proxy Port:[]
+   3|Proxy Username:[]
+   4|Proxy Password:[]
+   5|Remain uninformed:[]
+
+
+    ** Port Number cannot be empty
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Proxy Server:[]
+   2|Proxy Port:[]
+   3|Proxy Username:[]
+   4|Proxy Password:[]
+   5|Remain uninformed:[]
+
+
+    ** Port Number cannot be empty
+
+
+Enter index number to select OR [Exit][Previous][Next]> Previous
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Choose Middleware Home Directory:
+---------------------------------
+
+    "Middleware Home" = [Enter new value or use default
+"/home/linmq/Oracle/Middleware"]
+
+
+
+
+Enter new Middleware Home OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[ngcw@sunway.com.my]
+   2|My Oracle Support Password:[*******]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> 3
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+    "Receive Security Update:" = [Enter new value or use default "Yes"]
+
+
+
+Enter [Yes][No]? No
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+    "Receive Security Update:" = [Enter new value or use default "Yes"]
+
+
+    ** Do you wish to bypass initiation of the configuration manager and
+    **  remain uninformed of critical security issues in your configuration?
+
+
+Enter [Yes][No]? No
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[ngcw@sunway.com.my]
+   2|My Oracle Support Password:[*******]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]>
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[ngcw@sunway.com.my]
+   2|My Oracle Support Password:[*******]
+   3|Receive Security Update:[Yes]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> 3
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+    "Receive Security Update:" = [Enter new value or use default "Yes"]
+
+
+
+Enter [Yes][No]? No
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+    "Receive Security Update:" = [Enter new value or use default "Yes"]
+
+
+    ** Do you wish to bypass initiation of the configuration manager and
+    **  remain uninformed of critical security issues in your configuration?
+
+
+Enter [Yes][No]? Yes
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[No]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]>
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Register for Security Updates:
+------------------------------
+
+Provide your email address to be informed of security issues, install the product, and initiate configuration manager. http://www.oracle.com/support/policies.html
+
+   1|Email:[]
+   2|My Oracle Support Password:[]
+   3|Receive Security Update:[No]
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Choose Install Type:
+--------------------
+
+Select the type of installation you wish to perform.
+
+ ->1|Typical
+    |  Install the following product(s) and component(s):
+    | - WebLogic Server
+    | - Oracle Coherence
+
+   2|Custom
+    |  Choose software products and components to install and perform optional
+    |configuration.
+
+
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+JDK Selection (Any * indicates Oracle Supplied VM):
+---------------------------------------------------
+
+JDK(s) chosen for use with this product installation will be installed. Supported defaults if not deselected will be used in script string-substitution.
+
+   1|Add Local Jdk
+   2|/usr/lib/jvm/java-7-openjdk-amd64[x]
+
+
+
+   *Estimated size of installation:  727.6 MB
+
+
+Enter 1 to add or >= 2 to toggle selection  OR [Exit][Previous][Next]> 2
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+JDK Selection (Any * indicates Oracle Supplied VM):
+---------------------------------------------------
+
+JDK(s) chosen for use with this product installation will be installed. Supported defaults if not deselected will be used in script string-substitution.
+
+   1|Add Local Jdk
+   2|/usr/lib/jvm/java-7-openjdk-amd64[ ]
+
+
+
+   *Estimated size of installation:  727.6 MB
+
+
+Enter 1 to add or >= 2 to toggle selection  OR [Exit][Previous][Next]> 2
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+JDK Selection (Any * indicates Oracle Supplied VM):
+---------------------------------------------------
+
+JDK(s) chosen for use with this product installation will be installed. Supported defaults if not deselected will be used in script string-substitution.
+
+   1|Add Local Jdk
+   2|/usr/lib/jvm/java-7-openjdk-amd64[x]
+
+
+
+   *Estimated size of installation:  727.6 MB
+
+
+Enter 1 to add or >= 2 to toggle selection  OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Choose Product Installation Directories:
+----------------------------------------
+
+Middleware Home Directory: [/home/linmq/Oracle/Middleware]
+
+Product Installation Directories:
+
+
+   1|WebLogic Server: [/home/linmq/Oracle/Middleware/wlserver_10.3]
+   2|Oracle Coherence: [/home/linmq/Oracle/Middleware/coherence_3.5]
+
+
+
+
+Enter index number to select OR [Exit][Previous][Next]> Next
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+The following Products and JDKs will be installed:
+--------------------------------------------------
+
+    WebLogic Platform 10.3.3.0
+    |_____WebLogic Server
+    |    |_____Core Application Server
+    |    |_____Administration Console
+    |    |_____Configuration Wizard and Upgrade Framework
+    |    |_____Web 2.0 HTTP Pub-Sub Server
+    |    |_____WebLogic SCA
+    |    |_____WebLogic JDBC Drivers
+    |    |_____Third Party JDBC Drivers
+    |    |_____WebLogic Server Clients
+    |    |_____WebLogic Web Server Plugins
+    |    |_____UDDI and Xquery Support
+    |    |_____Evaluation Database
+    |_____Oracle Coherence
+         |_____Coherence Product Files
+
+    *Estimated size of installation: 727.7 MB
+
+
+
+
+Enter [Exit][Previous][Next]> Next
+Sep 20, 2016 10:07:21 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Installing files..
+
+0%          25%          50%          75%          100%
+[------------|------------|------------|------------]
+[***************************************************]
+
+
+Performing String Substitutions...
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Configuring OCM...
+
+0%          25%          50%          75%          100%
+[------------|------------|------------|------------]
+[***************************************************]
+
+
+Creating Domains...
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Installation Complete
+
+
+Congratulations! Installation is complete.
+
+
+Press [Enter] to continue or type [Exit]>
+
+
+
+
+
+<-------------------- Oracle Installer - WebLogic 10.3.3.0 ------------------->
+
+Clean up process in progress ...
+linmq@linmq-desktop:~/software$

@@ -1,0 +1,17 @@
+如果要和服务器对接，就需要服务器提供的Java对接包。
+服务器是由C++或者Java设计的，但是服务器运行过程中要产生response或者request，
+就要由服务器的JAVA产生模块部分来与我们的Java classes进行通信。
+因此这部分Http相关的包是由服务器提供的。
+而除非Java本身又一种Web语言开发规范，定义了服务器和Java应用程序之间的接口。
+但是目前看来显然没有……java是不需要web应用程序接口规范的，因为要有很多独特的交互方式产生，
+你就不能去定义这个规范。
+这是Tomcat服务器与JAVA编程语言之间的交互包。
+Tomcat通过Java模块输入java版response和request到Class当中进行处理。
+若Tomcat服务没有Java模块怎么办？
+由Java-JNI实现向Tomcat服务器的调用，抓取二进制报文，并解析至response和request，那么tomcat
+服务器就不需要进行兼容java了。
+
+Tomcat服务器定义的编程接口之间的规范。
+只要符合这个规范的，就可以被Tomcat服务器所调度，
+并且Tomcat的这个规范是以Jar包来实现的，并且也必须有这个编程接口，不然Tomcat中的response和request
+怎么传递给Java中的类呢？

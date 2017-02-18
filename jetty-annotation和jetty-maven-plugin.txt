@@ -1,0 +1,13 @@
+对啊，对于一个项目的理解，不一定就是根结构树下来的。
+也有可能是多个树节点组织在一起，有的树节点搭了边。
+
+比如jetty-project和jetty-maven-plugin虽然有共同的parent父节点。
+但是jetty-project和jetty-maven-plugin起始的是两棵树。
+
+jetty-annotation从jetty-project继承了一些东西。
+而jetty-maven-plugin引用了jetty-annotation，相应的，就从jetty-project继承了一些东西下来。
+那么拓扑图应该是jetty-maven-plugin这个节点为两棵树所派生下来的。
+只要一个包依赖于另外一个包，那么这个包就称作这个包结构的子节点，上一个
+就成为这个包结构的树节点。
+
+按照依赖的关系建起一个树的结构。

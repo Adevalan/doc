@@ -1,0 +1,4 @@
+静态sql和动态Sql的区别特别容易体现在procedure上，
+在procedure上，直接写入select * from xxx…… ，数据库执行计划已经生成。
+
+而采用变量，即存储形式的方式存储这个sql，那么执行计划只会在执行时产生。

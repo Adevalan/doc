@@ -1,0 +1,6 @@
+Super User http://ee2cs.com
+20 人赞同
+就是為了操作的一致性。即使是硬件，也可以利用系統調用進行讀寫操作。
+例如輸入以下命令：
+cat /dev/urandom > /dev/dsp
+揚聲器裡傳出了噪聲。

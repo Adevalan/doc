@@ -1,0 +1,26 @@
+{
+ {
+
+  src:192.168.173.1
+
+  dest:192.168.173.25
+
+  src-mac:notebook
+
+  } -- 确定性内容
+
+dest-mac: rapberry pi 3+
+
+}
+
+raspberry accepted .
+
+  src:192.168.173.1
+  dest:192.168.173.25
+  src-mac:notebook
+  dest-mac: rapberry pi 3+
+
+0.0.0.0
+or dchp.sshd
+192.168.173.25 <-传输被拒绝。
+mac为本机地址，单目的ip不为本机所分配的dhcp或本机暂无ip。

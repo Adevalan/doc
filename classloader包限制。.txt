@@ -1,0 +1,31 @@
+package java.lang.Pourse
+
+覆盖Lang。
+Lang被覆盖了，但是加载的时候先委托符类加载。
+或者子类插入到了父类的包中，去访问protected的字段。
+同包之内的，
+当出现跨包访问的时候，和classloader有什么关系。
+
+来自另外一个classloader的，也算作包限制中的一种。
+
+
+也就是说，protected有多层限制。
+1、同一个classloader装载的。
+2、同一个包内的。
+
+因为不同classloader必然只能算后期插入的。
+classloader_1 、 classloader_2
+分不同时段加载，它们可以分组结合成一个包。
+
+而classloader_all则一次性结合成一个包。
+
+当然classloader_all内部也可以支持动态的载入。
+只要是支持动态的载入的，都可以这样。
+
+当然ClassLoader也可以分包处理。比如记录哪一块类属于哪一个jar包。不同jar包的package不能相互访问。但是可以重写。
+
+另外设计多个ClassLoader也是为了可以重写某个类。
+比如都在一个ClassLoader当中那么处理起来会非常复杂。
+
+而分层委托关系来说，实现起来就非常的简单了。
+每个层ClassLoader只需要实现自己的部分。

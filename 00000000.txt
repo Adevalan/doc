@@ -1,0 +1,9 @@
+/rog/finance/
+容器处理
+xxxx
+请求派遣器，/aaa/dddd
+由于是容器托管的，为了contextroot的可变性，所以
+在我们这边web.xml当中不应该出现contextroot相关的东西，
+因为将来contextroot是可在运行期间发生改变的。
+不应在开发期间指定一个运行期才运行的配置路径。
+因为它随时可变。

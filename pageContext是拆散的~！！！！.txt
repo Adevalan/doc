@@ -1,0 +1,2 @@
+要么是吧jsper对象都集合进了pageContext对象里。
+要么就是吧pageContext对象里的属性都分散到jsper的java局部变量里。

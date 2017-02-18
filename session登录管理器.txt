@@ -1,0 +1,5 @@
+xinit是启动桌面程序。
+startxfce4等同于xinit。
+桌面管理器是另一种等效的东西。
+只不过xinit是启动目标在另一个session下，目标自维护登录。
+startxfce4是登录的情况下。

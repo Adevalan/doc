@@ -1,0 +1,18 @@
+OpenSUES :
+lrwxrwxrwx  1 root root          6 Oct 19  2015 rc.d -> init.d
+init.d : 
+-rwxr-xr-x  1 root root  322 Oct 31 15:47 rc.local
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rc0.d
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rc1.d
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rc2.d
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rc3.d
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rc4.d
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rc5.d
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rc6.d
+drwxr-xr-x  2 root root 4096 Sep 25  2014 rcS.d
+启动标准流程不一样。
+
+CentOs:
+init.d == init.d
+rc.d == rc.d
+havent /etc/rcN.d、 rc

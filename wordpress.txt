@@ -1,0 +1,23 @@
+[root@VM_28_234_centos ~]# vi passwd.txt
+mysql root:
+e88f9b1d
+wordpress:
+10ba7a21
+FTP default ftpdef :
+10ba7a21
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"passwd.txt" 6L, 71C

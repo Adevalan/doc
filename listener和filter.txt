@@ -1,0 +1,2 @@
+Listener是web容器相关的相应响应。
+Filter是请求相关的。

@@ -1,0 +1,3 @@
+应该是直接绕过了路径，如果是顺序的话，
+那么直接不要@ResponseBody注解不就好了，自然而然的在执行了MessageConverter后
+跑到ViewResolver中去了不是？

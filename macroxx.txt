@@ -1,0 +1,3 @@
+#define macro_fun(arg...) scope{此处必须给出已定义标识符/宏参数或常量}
+所谓的已定义，即macro_fun的作用域，
+

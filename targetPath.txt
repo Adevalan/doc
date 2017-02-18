@@ -1,0 +1,16 @@
+target - | {
+
+	项目名 打包。
+	其它目录不打包。
+}
+
+
+build 默认参数根据targetPath原来指的不是目标路径。。。。
+而是= ="Target"目录的Path。
+接收的是相对的路径。
+
+build相对的targetPath中的路径 就是相对于WEB-INF/classes
+
+war相对的的targetPath中的路径 就是相对于dizcuz。
+
+。。。好奇葩 哦~！。

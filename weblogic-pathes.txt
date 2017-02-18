@@ -1,0 +1,4 @@
+~/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_user/
+~/Oracle/Middleware/user_projects/domains/base_domain/logs
+~/user.commands
+/home/linmq/Oracle/Middleware/modules/javax.persistence_1.0.0.0_1-0-2.jar

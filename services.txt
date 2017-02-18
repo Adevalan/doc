@@ -1,0 +1,7 @@
+
+
+svc_drda	9089/tcp		#svc_drda
+
+
+
+amp	9088/tcp		#cib

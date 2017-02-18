@@ -1,0 +1,11 @@
+也就是说J2EE中的Servlet部分只是标准，它不针对于任何的容器，需要由容器来支持它的运行。
+而每套容器又有了自己的规范。
+
+比如说，ServletRequest这个是原生WEB应用当中的，
+HttpServletRequest是Tomcat实现的，
+
+而为什么Tomcat实现的东西可以在Basic Server上跑呢？
+因为HttpServletRequest本质上还是实现了ServletRequest接口的。
+
+也就是说，在J2EE这个规范里头，容器只需要支持ServletRequest接口就行了，
+至于容器内部要怎么定义它自己的东西那都无什么所谓。

@@ -1,0 +1,3 @@
+ShadowSocks（影梭）不完全指南| auooo
+www.auooo.com/2015/06/26/shadowsocks（影梭）不完全指南/
+2015年6月26日 - 传统的VPN 方式，在切换网络时非常不方便， 比如连上国外的VPN 之后会发现访问国内的网站速度严重下降。 ShadowSocks 支持PAC 列表， ...

@@ -1,0 +1,7 @@
+Apache Shiro 和 Spring Security,
+SQL查，
+HQL查，
+抽象条件查，
+对象查，
+
+每一种都非标量查询，数据是标量的，但均都可以反射回出一个结果对象。

@@ -1,0 +1,14 @@
+不写<profiles>默认走
+	
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+	</build>
+
+写了profiles，这些附加的profiles被写入了 | 但是主过程却没有打包任何的东西进去？？？？？
+
+
+

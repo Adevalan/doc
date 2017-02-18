@@ -1,0 +1,17 @@
+javascript引擎里头默认的流程，先执行onSubmit，为true的话，执行submit();
+if(xxx.onSubmit()){
+   submit();
+}
+
+javascript引擎默认绑定的方法 :
+xxx.onSubmit = function(){
+return true;
+}	
+
+用户覆盖的方法 (即：使用多态特性):
+xxx.onSubmit = function(){
+return false;
+}
+
+
+拦截默认事件，submit函数没有被闭包在内部作私有化。

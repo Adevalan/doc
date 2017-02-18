@@ -1,0 +1,8 @@
+Element : build
+3.0.0+
+Information required to build the project.
+
+Content Model : all(sourceDirectory?, scriptSourceDirectory?, 
+ testSourceDirectory?, outputDirectory?, testOutputDirectory?, 
+ extensions?, defaultGoal?, resources?, testResources?, directory?, 
+ finalName?, filters?, pluginManagement?, plugins?)

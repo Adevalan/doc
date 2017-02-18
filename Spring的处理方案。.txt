@@ -1,0 +1,6 @@
+try{
+ ³ÌÐò´úÂë()
+ commit;
+}catch(RuntimeException|SQLException e){
+ »Ø¹ö
+}

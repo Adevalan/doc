@@ -1,0 +1,20 @@
+	private static void ss() {
+		String str = ".exe,.png,.22";
+
+		String uploadFile = "aaa.22";
+		
+		int hitCount = 0;
+		for (String aa : str.split(",")) {
+
+			if (!uploadFile.endsWith(aa)) {
+				if ((++hitCount == str.split(",").length))
+					throw new RuntimeException();
+			}
+
+		}
+
+	}
+
+	public static void main(String[] args) {
+		ss();
+	}

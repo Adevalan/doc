@@ -1,0 +1,5 @@
+ServletContext是该Context集合在Servlet获取方面的表现形式。
+
+JSPContext是该Context数据集合在JSP页面获取方式的表现形式。
+
+pageContext是在该页面获取的表现形式。

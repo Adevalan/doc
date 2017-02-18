@@ -1,0 +1,13 @@
+commit & merge is not in the same~.
+
+Merge choose you saved change with local files and update remote files.
+
+to keep syncronze
+
+commit without review all the remote files , 
+and submit the localfiles to flush the server repository.
+
+and them, most of softwares for svn&Git not well for you to done 
+this request.
+
+because their are fllowing the rules.

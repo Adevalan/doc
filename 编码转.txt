@@ -1,0 +1,22 @@
+utf-8 : e4 b8 ad e6 96 87 
+iso-8859-1 : 3f 3f 
+e4 b8 ad e6 96 87 
+c3 a4 c2 b8 c2 ad c3 a6 c2 96 c2 87 
+
+"中文".getBytes("iso-8859-1")
+unicode.{e4 b8 ad}.码表 -> iso-8859-1.码表.{??} 无法转换!!
+
+new String(utf-8.{e4 b8 ad},"iso-8859-1")
+utf-8.{e4}:iso-8859-1 -> utf-8.{12}
+utf-8.{b8}:iso-8859-1 -> utf-8.{48}
+utf-8.{ad}:iso-8859-1 -> utf-8.{40}
+
+str.getBytes("iso-8859-1") : utf-8-->>iso-8859-1
+utf-8.{12} -> iso-8859-1.{e4}
+utf-8.{48} -> iso-8859-1.{b8}
+utf-8.{40} -> iso-8859-1.{ad}
+
+new String(str.getBytes("iso-8859-1"),"UTF-8")
+iso-8859-1.{e4}:utf-8 -> utf-8.{e4}
+iso-8859-1.{b8}:utf-8 -> utf-8.{b8}
+iso-8859-1.{ad}:utf-8 -> utf-8.{ad}

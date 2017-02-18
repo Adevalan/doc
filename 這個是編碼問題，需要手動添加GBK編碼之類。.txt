@@ -1,0 +1,7 @@
+這個是編碼問題，需要手動添加GBK編碼之類。
+先找到Options->ASCII String Style..。選擇Change Encoding。
+打開的窗口中有至少四個選項：<default>,<no conversion>,UTF8,UTF16LE。很顯然是沒有GBK什麼的。
+在列表上右鍵，選擇Insert。添加編碼的名字，如GBK，OK。
+編碼加入後需要選中他。ASCII String Style的窗體上，Change Encoding右側有Set Default Encodings。
+8位寬的選擇對應的OEM集，如剛剛加入的GBK，16位寬的選擇UTF16LE之類或者保持no Convertion不變。
+這個辦法剛纔個人在IDA65上測試通過。 

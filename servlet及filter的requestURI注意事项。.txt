@@ -1,0 +1,66 @@
+Servlet req.getRequestURI() : /fin/index.do
+Servlet req.getRequestURL() : http://localhost:8080/fin/index.do
+
+都会带ContextPath
+
+而且转发的时候，不会自动带上contextroot。
+而且都会带上最开始的斜杠。
+
+---------------------------------------------------   path:"/"
+是从HOST:8080开始的，从后面的'/'开始计算的。
+
+
+url-pattern 为" "的话永远都匹配不到。
+
+
+Filter : req.getLocalName() :0:0:0:0:0:0:0:1
+Filter : req.getRemoteHost() :0:0:0:0:0:0:0:1
+Filter : req.getServletContext().getContextPath() :/fin
+Filter : req.getServerName() :localhost
+Servlet req.getRequestURI() : /fin/index.do
+Servlet req.getRequestURL() : http://localhost:8080/fin/index.do
+---------------------------------------------------   path:"/*"
+
+
+
+
+Filter : req.getLocalName() :0:0:0:0:0:0:0:1
+Filter : req.getRemoteHost() :0:0:0:0:0:0:0:1
+Filter : req.getServletContext().getContextPath() :/fin
+Filter : req.getServerName() :localhost
+Servlet req.getRequestURI() : /fin/
+Servlet req.getRequestURL() : http://localhost:8080/fin/
+---------------------------------------------------   path:"/*"
+
+Filter : req.getLocalName() :0:0:0:0:0:0:0:1
+Filter : req.getRemoteHost() :0:0:0:0:0:0:0:1
+Filter : req.getServletContext().getContextPath() :/fin
+Filter : req.getServerName() :localhost
+Servlet req.getRequestURI() : /fin
+Servlet req.getRequestURL() : http://localhost:8080/fin
+---------------------------------------------------   path:"/*"
+
+综上所述，就是截取了URL中的HostName。保留了后面的部分(包含ContextPath)。
+url-pattern则去掉了ContextPath部分。URL-pattern不需要考虑ContextPath的部分，但是一定要由
+'/'开头，因为不能为' '，同时也不能为'/'，只能选择以'/'开头路径的。
+
+
+
+SpringMVC匹配不够智能，requestMapping就等于是url-pattern。。。
+不对，jetty容器下无法识别url-pattern
+
+SpringMVC下，可以转发带ContextPath，默认的。
+
+原生servlet为什么要设计sendRedirect不会转发xxx呢？
+因为sendRedirect可能要跳往第三方网站。
+当配置非/开头的地址时，就是不带HOST的返回了。
+
+
+而当配置/开头时，就会返回HOST。
+
+如果都默认拼上了，在第三方网址前面也加上contextPath？？？这不是扯淡吗。。。。
+
+tomcat容器还不那么智能。能处理并考虑到多么周到的事情。
+
+
+因为默认不会拼contextPath所以可以给第三方url的跳转留有一个余地。

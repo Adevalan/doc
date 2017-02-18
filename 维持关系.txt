@@ -1,0 +1,38 @@
+if(inverse){
+  sql : save (父inverse=“true”)
+}else{
+  sql : save(pid)
+}
+if(存在 casecade){
+   save(objs);
+}
+if(inverse){ inverse=="true"
+
+}else{
+   update(objs);
+}
+
+P{
+ list()
+}
+
+save(p)
+
+p : saveSelf;
+p : cascade? saveSUBS: none;
+p : inverse? update: none;
+
+双向关联的那个别人没有交给我，即他为false的。它想维持，那必然给它维持。
+但是我自己定义了，false？？？
+
+多的一方，声明，inverse = "false";
+if(别人交给我维护我和他的关系) 其它类<==本类
+   保存with 关联的A左值、B左值、C左值
+else
+   直接保存 ' 这块对于p来说都可以取一个定值。|没有我自己要维护我自己的。
+if(是否存在级联)
+   递归保存子列
+if(我不交给他维护，我自己来维护我和你的关系) 本类==>其它类，没有我本类<==>本类的关系维持。
+   更新关系。
+  }如果这里交出去了，那么就不会走这里了，“你”就会出现在上方的语句自己维护和我的关系。
+

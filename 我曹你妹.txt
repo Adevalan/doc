@@ -1,0 +1,4 @@
+不需要BaseUrl，以前是因为不知道BaseUrl怎么配。
+其实contextroot就很好的替换了BaseUrl的功能，
+之前是自己实现contextroot的功能，
+因为那个时候contextroot还没有奏效，因此需要进行同步开发。

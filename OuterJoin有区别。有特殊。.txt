@@ -1,0 +1,3 @@
+这回糗大了，
+Outer Join 和 Inner Join 和 Left Join 和 Right Join。
+这四个东西根本不是一个样东西。。

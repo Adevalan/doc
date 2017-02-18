@@ -1,0 +1,1 @@
+fetch=FetchType.LAZY就等于打开了延迟加载，Hibernate中的get方法不论是否开启延迟加载都会一次加载所有基本数据类型属性的值，而load则不同，开启延迟加载后load（id），返回的对象会被Hibernate加一个壳(持久化上下文中没有缓存该对象的前提下)，拦截所有非id属性的访问操作（getter，setter调用），只有id属性中有实际值（其实就是你调用load方法时传的那个），在session没有关闭的之前，如果访问除id外的其他属性才会发sql语句去查询，你这个错误就是因为在当前session关闭以后访问由load（）加载的对象的非id属性，此时Hibernate尝试通过当前session发sql查询，但发现session已经关闭，这样才会报错。  

@@ -1,0 +1,7 @@
+Logger-name : j4test.org.mg was found!
+spec level [error] > logger.level [info] > 
+use /console and /warnlog.
+
+log.info("wg"); unavaliable...
+
+it seems like a merge list...

@@ -1,0 +1,4 @@
+如果是
+ClassA newInstance(Class<? extends ClassA> clazz);
+还不如用ClassA.newInstance();
+或者ClassA.class.newInstance();

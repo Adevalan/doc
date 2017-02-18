@@ -1,0 +1,25 @@
+java的classpath指的是class源件存在的顶级目录。
+
+比如 
+%CLASSPATH% = 
+%JAVA_HOME%/lib不算是CLASSPATH。
+
+
+必须是具体的JAR作为CLASSPATH。
+
+JAVA程序将会解压释放所有的CLASSPATH到一个目录当中，并作为这个临时项目的工作空间。
+
+
+
+java 类的时候需要指定ClassPath，如果类存在命名空间的话。
+java是从classpath开始搜索的。
+
+即java不以当前的命令行路径作为路径查找条件。
+
+而是以各个ClassPath作为xxxx。
+
+是与路径无关的。
+
+java接收的不是路径，而是XXX
+
+基本原理就是，在一个路径下，执行某个包名内的java类代码。

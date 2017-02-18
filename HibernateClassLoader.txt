@@ -1,0 +1,45 @@
+如果是用默认的方法：
+new HibernateClass()
+默认情况下，App加载器搜索自己的Cache没有的话，去找父加载器的Cache。
+父加载器如果可以成功加载(包重名)，则该类被植入到父加载器。
+
+
+而用了<prefer-web-inf-classes>以后的情况是怎样的？
+new HibernateClass()
+这种情况下，App加载器搜索自己的Cache，查看有没有加载过的，
+没有的话去找父类的Cache(此时Cache应该是有内容的)，父类找不到，反向调用子类加载器加载，
+再加载不了，就走的父类。
+
+那么Class.forName又有什么不同点呢？
+
+	public Class loadClass(String name) throws ClassNotFoundException {
+		if ( name.startsWith( "java." ) || classTransformer == null ) {
+			return getParent().loadClass( name );
+		}
+
+		Class c = findLoadedClass( name );
+		if ( c != null ) {
+			return c;
+		}
+
+		InputStream is = this.getResourceAsStream( name.replace( '.', '/' ) + ".class" );
+		if ( is == null ) {
+			throw new ClassNotFoundException( name + " not found" );
+		}
+
+		try {
+			byte[] originalBytecode = ByteCodeHelper.readByteCode( is );
+			byte[] transformedBytecode = classTransformer.transform( getParent(), name, null, null, originalBytecode );
+			if ( originalBytecode == transformedBytecode ) {
+				// no transformations took place, so handle it as we would a
+				// non-instrumented class
+				return getParent().loadClass( name );
+			}
+			else {
+				return defineClass( name, transformedBytecode, 0, transformedBytecode.length );
+			}
+		}
+		catch( Throwable t ) {
+			throw new ClassNotFoundException( name + " not found", t );
+		}
+	}

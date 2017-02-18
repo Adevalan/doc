@@ -1,0 +1,4 @@
+Command Line Interface
+用户接口，代表面向用户操作的接口。
+
+Interface = 接口 \ 介质 \ 界面 \ 介面。

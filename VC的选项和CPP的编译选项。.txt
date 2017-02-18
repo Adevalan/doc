@@ -1,0 +1,17 @@
+#pragma comment(lib,'dddd.lib)
+既然是支持局部编译的，那么局部的CPP内置的设置，也仅对CPP自身有效。
+
+而外部的则需要全局命令行的选项支持。用以全项目使用。
+
+
+如果声明了dllimport会怎样？
+在导入表当中占了位置，但是这个dll会在哪个xxx中占位置呢？
+
+dddd.lib如果为动态库，那么dllimport分配的导入表，
+从dddd.lib当中匹配到了符号，并且提出了dll的名字。
+
+也就是dllimport和dddd.lib是搭配使用的。
+
+如果为静态库，可不可以不使用dllimport？
+应该可以的吧，
+dllimport只是用来表示，链接成功后，同时生成导入表信息。

@@ -1,0 +1,5 @@
+利用AopUtils写出来的BeanPost是全局的。
+而SpringMVC的拦截器不是全局的。
+普通的AOP也可以是全局的。
+
+Spring支持三种方式定义bean。xml-based、defined、annotationed。

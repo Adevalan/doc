@@ -1,0 +1,6 @@
+liquibase
+flywaydb
+grails
+rails
+migration
+hbm2ddl.auto = true

@@ -1,0 +1,8 @@
+WAN interface的是连接外网的，也就是internet. LAN interface 是指连接本地网的端口。
+路游器的LAN interface 一般连接L2交换机，L2交换机再连接客户端PC.
+
+一个端口能设定一个物理IP 地址，但是在物理端口上建几个虚拟段口也就是sub interface, 
+也可以给sub interface配不同网断的IP地址。 能设定几个IP 地址，就要看能建几个sub interface了。
+
+比如是思科的路由器1814的话，又有WAN的端口也有SWITCH端口，SWITCH端口不能直接配IP地址，
+只能建立VLAN, 然后把SWITCH端口配制成属于那个VLAN就行了。不能直接配ip 的原因是，SWITCH端口跟交换机上的端口是一样的，也就是说属于第二成的。

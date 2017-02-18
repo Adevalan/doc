@@ -1,0 +1,4 @@
+Antlr包如果被SystemLoader加载，
+其执行时，通过本身的ClassLoader.forName()反射
+寻找org.hibernate.hql.ast.HqlToken，那么就会炸。
+Antlr.getClassLoader().query(xxx);

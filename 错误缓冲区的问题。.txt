@@ -1,0 +1,11 @@
+server: apr_socket_sendfile() worked as expected!
+server: apr_socket_sendfile() worked as expected!
+server: apr_socket_sendfile() worked as expected!
+
+
+
+apr_socket_sendfile() : 
+Programs failed: testall
+
+
+不是及时输出的，测试缓冲区会被错误刷新掉。

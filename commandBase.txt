@@ -1,0 +1,17 @@
+curr-bash -> run fork-bash
+fork-bash fork command,
+command execute .
+exit.
+
+
+
+or ?
+
+
+fork-bash execute command.
+exit.
+
+
+curr-bash -> run fork-bash
+执行了fork后，本进程已无阻塞。
+除非脚本设计了需要进行消息交互。

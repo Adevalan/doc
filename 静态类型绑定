@@ -1,0 +1,37 @@
+class B
+{
+    void DoSomething();
+    virtual void vfun();
+}
+class C : public B
+{
+    void DoSomething();
+    virtual void vfun();
+}
+class D : public B
+{
+    void DoSomething();
+    virtual void vfun();
+}
+D *pD = new D(); //specific to class D::DoSomething();
+B *pB = pD;
+让我们看一下，pD->DoSomething()和pB->DoSomething()调用的是同一个函数吗？
+D *pD = new D();
+pD->DoSomething(); // not virtualization invoketion.
+//---------------
+B *pB = new D();
+pB->DoSomething(); // not virtualization invoketion.
+
+stack segment::= 
+					D*
+					ret-address
+code segment:: =	pop eax ; eax==D *;
+					mov ecx,eax
+					call 70887971 h ; offset == B::DoSomething();
+发生动态绑定时：
+pb指针执行的并非静态类型对象，而是动态类型对象的方法，依靠虚函数表进行。
+若存在非虚函数则执行静态类型绑定的函数。
+
+
+
+若进行了重写？

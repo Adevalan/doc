@@ -1,0 +1,4 @@
+/dev/tts/0（或/dev/ttyS0）、/dev/tts/1（或 /dev/ttyS1）
+Serial Port Terminal物理串行端口，即挂接了串行终端设备的串行端口。
+{终端即是端口的终点}。
+

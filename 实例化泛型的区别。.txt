@@ -1,0 +1,10 @@
+(Class<? extends xxx> clazz) 
+arguments..
+实例化Class类型。这是声明。一个xxxClass类型的变量。
+
+
+Map<Class<? extends xxxx>,Integer> map.
+arguments...
+这里是实例化Class类型及实例化Map类型时。
+
+

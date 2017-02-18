@@ -1,0 +1,15 @@
+.accordion .accordionHeader, 
+.accordion .accordionHeader h2, 
+.accordion .accordionHeader h2 span { color:#15428B; background:url(./images/accordion/accordion.png);}
+<!-- 公共样式 -->
+.accordion { border-color:#99bbe8; background:#FFF;}
+.accordion .accordionHeader { background-color:#eaf4ff;}
+.accordion .accordionContent { border-color:#99bbe8;}
+<!-- 特化样式 -->
+不需要每个样式都声明一遍一样的出来。
+当另一个样式需要color:#15428B; background:url(./images/accordion/accordion.png);时，可直接将该样式写入到公共部分。
+
+先定义一个样式，
+定义第二个样式，
+如果第二个样式和第一个样式有重复的，
+直接提出，放在公共部分。

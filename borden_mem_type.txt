@@ -1,0 +1,25 @@
+borden mem_type
+10	   5
+borden
+20	   6
+borden
+30	   7
+borden
+40	   8
+一个系统，它的mem_type = 5的值为10，它的mem_type=6的值为20，
+它的mem_type=7的值为30，它的mem_type=8的值为40，
+而且固定每台系统都有的，那么就将其导出为每个字段，利用sql语句的判断，。
+自动的将其各个type的值都输出为自动的字段。
+ｂｏｒｄｅｎ＿ｔｙｐｅ５
+ｂｏｒｄｅｎ＿ｔｙｐｅ６
+ｂｏｒｄｅｎ＿ｔｙｐｅ７
+ｂｏｒｄｅｎ＿ｔｙｐｅ８
+
+Oracle10g - 行变列。
+要取得Aaa的type = 5的borden，就要根据mem_type来判断。
+Integer memType = Aaa.getMemType()
+if (memType.equals(5l)){
+  Condition.setGdMemType(Aaa.getBorden());//高端存储。
+}else if (memType.equals(6l)){
+  Condition.setMorType(Aaa.getBorden());//低端存储。
+}利用sql语句直接根据type5-6查出border字段。而且其必然有以下几种类型的。

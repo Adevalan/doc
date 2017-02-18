@@ -1,0 +1,12 @@
+Disa.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) int __cdecl add(int)" (__imp_?add@@YAHH@Z)
+__imp_?add@@YAHH@Z 说明其找的是动态库的链接符号。
+而动态库又映射到了dll的导出符号。
+
+先通过__imp选项匹配到动态库lib当中的export_entry，
+接着提出export_entry部分的实际函数名。最后拼接为iat表。
+
+Disa.obj : error LNK2001: unresolved external symbol "int __cdecl add(int)" (?add@@YAHH@Z)
+
+如果不写__declspec(dllimport)就会去寻找实际的函数名，而不是去匹配__imp选项。
+
+那么两者有什么区别呢。。。似乎用不用imp都可以导入函数。

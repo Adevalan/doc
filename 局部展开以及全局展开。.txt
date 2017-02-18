@@ -1,0 +1,14 @@
+自然流出
+__try
+....
+__localUnwind p[Jmp?
+return
+....
+__localUnwind p[Jmp?
+return
+p[Jmp? ：FI
+__except
+...
+...
+FI
+finally代码。

@@ -1,0 +1,22 @@
+SELECT TOP 页大小 *
+FROM TestTable
+WHERE (ID NOT IN (SELECT TOP 页大小*页数 id FROM 表 ORDER BY id))
+ORDER BY ID
+
+
+取得结果集中最上方的50个ID，
+再查询数据库中非这50个ID的记录，并选取10条。
+
+SELECT * FROM   
+(  
+SELECT A.*, ROWNUM RN   
+FROM (SELECT * FROM TABLE_NAME) A   
+WHERE ROWNUM <= 40  
+)  
+WHERE RN >= 21  
+选取小于40的行号数据，再从中选取大于20的行号数据
+
+rowNum 和 TOP一样吗。
+好像也差不多。。。
+TOP似乎有点不同，它是指获取头顶多少条记录，
+而ROW num则是每条记录的行号。

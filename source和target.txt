@@ -1,0 +1,59 @@
+JVM识别class文件的magicNumber，
+如果magicnumber小于当前可支持的MajorVersion或MiroVersion，
+那么就可以支持运行。
+
+源码是不带有JDK版本的，
+-source 1.5 -target 1.6
+
+将1.5的源码编译到1.6
+source其实没啥用。。。
+
+
+-source用处不大。。。
+1.5 -> 的JDK编写的源文件，访问的是1.5的jdk的函数，
+1.5的jdk函数在1.6中可能不存在，并已被替换，
+
+所以说此时需要"--target 1.6" 的支持。
+因为原始JDK的函数是与JRE相关的。
+
+JRE即包含了jre运行时库。
+
+因此--source是为--target作一个参考。
+--target是替换一些jdk函数及编译出1.6平台的字节码。因为可能有新增的字节码。
+一般语法只有新增，不会有替换。
+
+编译器是语法支持，而不是函数调用方法支持。
+
+
+
+--target === version.~~~ normal compile.~~~ jdk exchange.~~~
+
+No source，default- >
+1.8的语法以及JDK，编译下来，是class<1.8>\jdk 1.8.
+
+
+jvm 1.6不支持。
+
+specfial target 1.6->
+default source - 1.8
+1.8 > 1.6 X_X~No~!
+
+java compiler 1.4 [support pre1.4]
+default source -1.4
+default target -1.4
+
+java compiler 1.5 [add most language support]
+default source -1.5
+default target -1.5
+
+1.4 source file to java compiler 1.5 what well done?
+
+class to 1.5 .
+so 1.4 not support.
+
+不指出source属性的话，那么编译可能失败，何不如直接失败。
+
+source默认就是1.8，编译器不允许采用了1.8特性的java文件被编译到低于1.8版本去运行。
+
+所以说，这里就是为了避免在编译时才发现这个问题，而直接由用户指出了。防止作无用的工作。
+

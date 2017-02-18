@@ -1,0 +1,1 @@
+之前讨论monad和CPS变换的时候很多人不以为然，Promise

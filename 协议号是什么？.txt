@@ -1,0 +1,2 @@
+
+xinetd 里的服务都要指定文件去找端口，这个文件就是 /etc/services    有些时候还会用的/etc/protocol 来调用协议号

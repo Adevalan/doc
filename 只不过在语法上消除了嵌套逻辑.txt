@@ -1,0 +1,9 @@
+async Task<T[]> SequencialExecute(this Task<T>[] tasks)
+{
+    var ts = new T[tasks.Length];
+    for(int i=0;i<tasks.Length;i++)
+        ts[i]=await tasks[i];
+    return ts;
+}
+实际上 有几个循环就几重嵌套 因为await tasks[i];
+只不过在语法上消除了嵌套逻辑

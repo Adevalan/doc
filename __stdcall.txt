@@ -1,0 +1,13 @@
+类似kernel32.dll的导出名：
+GetContextThread函数。
+即：
+__stdcall约定，C函数导出方式。
+跨模块调用必须知道对方的调用约定。
+根据函数名进行区分。
+_XXX@N就是_cdecl，知道自己要回滚多少堆栈。
+XXX就是__stdcall，不需要进行回滚。但是参数个数。。。就依靠程序中的调用方案和函数声明来咯。
+
+
+至于c++的导出肯定是有XXX的，C++的stdcall和C++的cdecl。
+C++的stdcall支持重载的话，它也要求@XZYYCDP
+以C方式导出的话，就行了。

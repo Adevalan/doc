@@ -1,0 +1,4 @@
+It is possible to go directly to whatever you want help on,by giving an argument to the command
+
+没有指定主语It的情况下，它可能是一个描述语。
+看完整句就懂了。

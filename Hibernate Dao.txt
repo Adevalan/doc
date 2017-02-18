@@ -1,0 +1,16 @@
+
+	/**
+	 * 根据 Criterion 条件创建 Criteria
+	 * 
+	 * @param criterions
+	 * @return
+	 */
+	public Criteria createCriteria(Criterion... criterions) {
+		Criteria criteria = getSession().createCriteria(entityClass);
+
+		for (Criterion c : criterions) {
+			criteria.add(c);
+		}
+
+		return criteria;
+	}

@@ -1,0 +1,9 @@
+事件管理流程报告*
+发布管理流程报告
+问题管理流程报告
+能力管理流程报告
+
+/oams-war/src/main/java/com/cib/oams/processmanage/action/AbiAction.java
+/oams-war/src/main/java/com/cib/oams/processmanage/action/EventManageFlowAction.java
+/oams-war/src/main/java/com/cib/oams/processmanage/action/IssueManageFlowAction.java
+/oams-war/src/main/java/com/cib/oams/processmanage/action/QuestionManageFlowAction.java

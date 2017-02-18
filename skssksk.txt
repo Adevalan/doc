@@ -1,0 +1,24 @@
+insert into t_menu_biz_scope (id_menu,biz_code) values(110000,03001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(110000,03002);
+insert into t_menu_biz_scope (id_menu,biz_code) values(110100,03001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(110200,03002);
+
+insert into t_menu_biz_scope (id_menu,biz_code) values(120000,04001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(120000,04002);
+insert into t_menu_biz_scope (id_menu,biz_code) values(120100,04001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(120200,04002);
+
+insert into t_menu_biz_scope (id_menu,biz_code) values(130000,05001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(130000,05002);
+insert into t_menu_biz_scope (id_menu,biz_code) values(130100,05001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(130200,05002);
+
+
+insert into t_menu_biz_scope (id_menu,biz_code) values(140000,06001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(140000,06002);
+insert into t_menu_biz_scope (id_menu,biz_code) values(140000,06003);
+insert into t_menu_biz_scope (id_menu,biz_code) values(140000,06004);
+insert into t_menu_biz_scope (id_menu,biz_code) values(140100,06001);
+insert into t_menu_biz_scope (id_menu,biz_code) values(140200,06002);
+insert into t_menu_biz_scope (id_menu,biz_code) values(140300,06003);
+insert into t_menu_biz_scope (id_menu,biz_code) values(140400,06004);

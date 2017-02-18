@@ -1,0 +1,9 @@
+from Event as e where
+ case 
+e.viewPermission 
+when 1 then 1=1 '条件语句，返回条件语句？？--> 输出条件语句
+when 0 then e.id in (
+select er.eventID as id from EventRecord as er where er.openID = 1
+) else 1=1 end
+
+when 1 then qty=10 （条件语句 = / < / > / ! / ~）

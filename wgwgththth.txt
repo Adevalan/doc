@@ -1,0 +1,7 @@
+	var dd = ".content:eq(0)";
+	var xx =  $(".ui-transfer-content "+ dd);
+	xx.text("1");
+	(xx = xx.nextAll().next(dd)).text("1");
+	(xx = xx.nextAll().next(dd)).text("2");
+	(xx = xx.nextAll().next(dd)).text("3");
+	(xx = xx.nextAll().next(dd)).text("4");

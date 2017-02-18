@@ -1,0 +1,16 @@
+boot.img包含了系统内核(其实是linux内核的ME版本。)
+system.img则包含了官方设计的Android系统，它作为一个GUI应用。
+相当于boot.img启动了一个X-Server程序，而system.img就相当于与X-Server进行通信的
+gtk/unity/gnome等UI大型软件视窗。而此刻，安卓APP则作为一个视窗内的软件在正在运行。。。
+
+为什么分了两个文件呢？就是这种情况。
+boot.img代表了linux的底层。
+而system.img可能作为一个应用来使用（其包括GUI）
+
+也可能作为一个嵌入式的模块来调用boot.img的内核工作。
+
+即第一种情况下，boot.img作为内核，system.img作为应用，system.img通过协议调用boot.img。
+第二种情况下，system.img作为内核，是boot.img上层调用者，其调用boot.img所映射内存上功能的，
+实现system.img所需要的各种功能。 
+其实都差不多，最终的结果都是system.img实现了Android的UI，boot.img提供了最基本的底层驱动，
+即硬件调用的API。

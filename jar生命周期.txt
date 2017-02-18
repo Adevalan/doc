@@ -1,0 +1,32 @@
+maven-plugin-plugin:3.2:helpmojo (help-goal) @ maven-apache-plugin
+
+maven-resources-plugin:2.6:resources (default-resources) @ maven-apache-plugin
+
+maven-compiler-plugin:3.1:compile (default-compile) @ maven-apache-plugin
+
+maven-plugin-plugin:3.2:descriptor (default-descriptor) @ maven-apache-plugin
+
+maven-plugin-plugin:3.2:descriptor (mojo-descriptor) @ maven-apache-plugin
+
+plugin:version:goal(phase/goal) (execution-id)
+
+maven-resources-plugin:2.6:testResources (default-testResources) @ maven-apache-plugin
+
+maven-compiler-plugin:3.1:testCompile (default-testCompile) @ maven-apache-plugin
+
+maven-surefire-plugin:2.12.4:test (default-test) @ maven-apache-plugin.
+
+maven-jar-plugin:2.4:jar (default-jar) @ maven-apache-plugin
+
+maven-plugin-plugin:3.2:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ maven-apache-plugin
+
+maven-install-plugin:2.4:install (default-install) @ maven-apache-plugin
+
+PACKAGEING JAR INSTALL ÉúÃüÖÜÆÚ£º
+maven-plugin-plugin:3.2:helpmojo
+maven-resources-plugin:2.6:resources
+maven-compiler-plugin:3.1:compile
+maven-resources-plugin:2.6:testResources
+maven-compiler-plugin:3.1:testCompile
+maven-surefire-plugin:2.12.4:test
+maven-jar-plugin:2.4:jar

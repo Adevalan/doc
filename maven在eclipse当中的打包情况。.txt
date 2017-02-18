@@ -1,0 +1,2 @@
+在Eclipse当中进行Maven项目编译时，必须使用默认包，来整合到eclipse当中，
+默认包负责将打包过程输出到eclipse -console上。
